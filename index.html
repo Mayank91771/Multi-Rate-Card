@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price card</title>
+    <link rel="stylesheet" href="price-card.css">
+    <script src="https://kit.fontawesome.com/b42b85f35e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <input type="radio" name="slider" id="tab-1">
+        <input type="radio" name="slider" id="tab-2" checked>
+        <input type="radio" name="slider" id="tab-3">
+        <!-- here id value of input tag should be same as for value of label tag below -->
+        <header>
+            <label for="tab-1" class="tab-1">Basic</label>
+            <label for="tab-2" class="tab-2">Standard</label>
+            <label for="tab-3" class="tab-3">Teams</label>
+            <div class="slider"></div>
+        </header>
+        <div class="cards-area">
+            <div class="cards">
+                <div class="row row-1">
+                    <div class="pricing-details">
+                        <span>20</span>
+                        <p>Beginner friendly</p>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i><span>100 GB premium bandwidth</span></li>
+                        <li><i class="fas fa-check"></i><span>Lorem ipsum dolor sit amet consectetur.</span></li>
+                        <li><i class="fas fa-check"></i><span>ABCD Lorem ipsum dolor sit amet. bandwidth</span></li>
+                        <li><i class="fas fa-check"></i><span>Unlimited email accounts & databases</span></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="pricing-details">
+                        <span>60</span>
+                        <p>Professional use</p>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i><span>Unlimited GB premium bandwidth</span></li>
+                        <li><i class="fas fa-check"></i><span>Lorem ipsum dolor sit amet consectetur.</span></li>
+                        <li><i class="fas fa-check"></i><span>ABCD Lorem ipsum dolor sit amet. bandwidth. Lorem ipsum dolor sit amet.</span></li>
+                        <li><i class="fas fa-check"></i><span>Unlimited email accounts & databases</span></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="pricing-details">
+                        <span>100</span>
+                        <p>Organization use</p>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i><span>Lorem ipsum dolor sit amet consectetur.</span></li>
+                        <li><i class="fas fa-check"></i><span>Unlimited GB premium bandwidth</span></li>
+                        <li><i class="fas fa-check"></i><span>ABCD Lorem ipsum dolor sit amet. bandwidth</span></li>
+                        <li><i class="fas fa-check"></i><span>Unlimited email accounts & databases. LoremLorem Lorem</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button>Buy plan</button>
+    </div>
+</body>
+</html>
